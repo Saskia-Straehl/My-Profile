@@ -1,0 +1,110 @@
+/*Formatting*/
+
+body{
+	background-color: #D1CBC3;
+	color:rgb(87, 82, 79);
+	font-family:'Overpass', sans-serif;
+}
+
+img {
+	border-radius: 70%;
+	border: 5px solid rgb(247, 246, 245);
+	box-shadow: 0px 10px 30px rgba(255,0,0,0.05);
+}
+
+h3 {
+	color:rgb(87, 82, 79);
+	background: rgb(249, 248, 247);
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.05);
+	text-align: center;
+}
+
+a{
+	color: rgb(245, 242, 240);
+	background: rgb(87, 82, 79);
+	text-decoration: none;
+	font-family: font-family: 'Bebas Neue', cursive;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+a:hover {
+	color: rgb(87, 82, 79);
+	background: #D1CBC3;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+p {
+	font-family:'Courgette', cursive;
+}
+
+/*Class*/
+
+.container {
+	width: 800px;
+	margin: 40px auto;
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+	
+.card-center {
+	background: rgb(245, 243, 240);
+	padding: 40px;
+	margin: 20px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.0.5);
+	border-radius: 5px;
+	text-align: center;
+}
+
+.card-white {
+	background: rgb(245, 243, 240);
+	padding: 35px;
+	margin: 20px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.05);
+	border-radius: 5px;
+}
+
+.contact-link {
+	color: rgb(87, 82, 79);
+	background: rgb(247, 246, 245);
+	text-decoration: none;
+	font-family:'Overpass', sans-serif;
+}
+
+.contact-link a:hover {
+	color: rgb(245, 242, 240);
+	background: rgb(237, 233, 228);
+}
+
+/*ID*/
+
+#LinkedIn {
+	font-size:24px;
+	vertical-align: middle;
+	margin-bottom: 3px;
+}
+
+#card-special {
+	vertical-align: middle;
+}
+
+#link {
+	vertical-align: middle;
+}
+
